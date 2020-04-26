@@ -1,4 +1,4 @@
-def ya(n):
+def fac(n):
     '''(int)return n!'''
     L = list(range(n + 1))
     m = 1
@@ -14,6 +14,6 @@ def e(n):
     L = list(range(n + 1))
     e = 0
     for x in L:
-        e = e + (1 / ya(x))
+        e = e + (1 / fac(x))
     return e
 
